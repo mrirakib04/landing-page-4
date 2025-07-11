@@ -5,13 +5,10 @@ const MessageForm = () => {
     <div
       style={{
         background: `url(${formBG})`,
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
       }}
       className="bg-no-repeat bg-cover bg-center"
     >
-      <div className="bg-gray-100 bg-opacity-50">
+      <div className="bg-gray-100/50">
         <div className="container mx-auto px-5 py-16 lg:py-20">
           <div className="text-center">
             <button className="px-4 py-2 mb-2 rounded-3xl font-bold text-gray-800 bg-lime-200">
